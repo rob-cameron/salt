@@ -20,7 +20,7 @@
             alias gti='git'
             
             # Set the prompt
-            'export PS1="${debian_chroot:+($debian_chroot)}\[\033[01;31m\]\u@\h:[\[\033[00m\]\w\[\033[01;31m\]]\n\t \$\[\033[00m\] "'
+            export PS1="${debian_chroot:+($debian_chroot)}\[\033[01;31m\]\u@\h:[\[\033[00m\]\w\[\033[01;31m\]]\n\t \$\[\033[00m\] "
         - append_if_not_found: True
         - backup: '.bak'
         - show_changes: True
